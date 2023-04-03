@@ -8,14 +8,15 @@
  ul{
     padding-left: 15px;
  }
-
+/*selettore background e titolo pagina*/
 #header{
     background-color:lightskyblue;
     background-image: url(../img/pattern.png);
-    padding: 35px;
+    padding-top: 60px;
     background-size: 500px;
     background-position:10px 0px;
 }
+
 .margin{
     margin-left: 10px;
 }
@@ -23,7 +24,7 @@
 h1{
     font-size: 50px;
 }
-
+/*selettori per sottotitolo*/
 .autore1{
     color:grey;
     font-size: 20px;
@@ -43,6 +44,7 @@ h1{
     margin-top: 20px;
 }
 
+/*inizio tabella*/
 table{
 border-collapse:collapse ;
 }
@@ -58,4 +60,14 @@ border-collapse:collapse ;
 
 .tbody2{
     background-color:white;
+}
+/*fine tabella*/
+h5{
+    color: gray;
+    margin-top: 20px;
+}
+/*immagini footer*/
+#imggraph{
+    display: block;
+    margin-top: 5px;
 }
