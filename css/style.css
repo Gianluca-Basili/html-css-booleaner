@@ -5,6 +5,10 @@
     box-sizing: border-box;
  }
 
+ ul{
+    padding-left: 15px;
+ }
+
 #header{
     background-color:lightskyblue;
     background-image: url(../img/pattern.png);
@@ -12,8 +16,46 @@
     background-size: 500px;
     background-position:10px 0px;
 }
-#margin{
+.margin{
     margin-left: 10px;
 }
 
+h1{
+    font-size: 50px;
+}
 
+.autore1{
+    color:grey;
+    font-size: 20px;
+}
+
+.autore2{
+    color: rgb(107, 213, 255);
+    font-size: 20px;
+}
+
+.autore3{
+    color: grey;
+    font-size: 15px;
+}
+
+.spazio{
+    margin-top: 20px;
+}
+
+table{
+border-collapse:collapse ;
+}
+
+.thead{
+    width: 300px;
+    background-color: aqua;
+}
+
+.tbody{
+    background-color:skyblue;
+}
+
+.tbody2{
+    background-color:white;
+}
